@@ -5,7 +5,7 @@ const Contact = ({ name, number, id, onDelete }) => {
   return (
     <>
       {name}: {number}
-      <Button type="" onClick={() => onDelete(id)}>
+      <Button type="button" onClick={() => onDelete(id)}>
         Delete
       </Button>
     </>
